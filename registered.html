@@ -1,0 +1,313 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<html>
+<head>
+	<title>Willy Wonka World Wide: An Ecommerce Online Candy Shopping Website</title>
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Super Market Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function() {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //for-mobile-apps -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- js -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- //js -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+	<!-- start-smoth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- start-smoth-scrolling -->
+</head>
+
+<body>
+	<!-- header -->
+	<div class="agileits_header">
+		<div class="container">
+			<div class="agile-login">
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+
+	<div class="logo_products">
+		<div class="container">
+			<div class="w3ls_logo_products_left1">
+				<ul class="phone_email">
+					<li><i class="fa fa-phone" aria-hidden="true"></i>Order online or call us : (+123) 867 5309</li>
+
+				</ul>
+			</div>
+			<div class="w3ls_logo_products_left">
+				<h1><a href="index.php">Willy Wonka World Wide</a></h1>
+			</div>
+			<div class="w3l_search">
+				<form action="#" method="post">
+					<input type="search" name="Search" placeholder="Search for a Product..." required="">
+					<button type="submit" class="btn btn-default search" aria-label="Left Align">
+					<i class="fa fa-search" aria-hidden="true"> </i>
+				</button>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- navigation -->
+	<div class="navigation-agileits">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.php" class="act">Home</a></li>
+						<li><a href="chocolate.php">Chocolate</a></li>
+						<li><a href="nuts.php">Nuts</a></li>
+						<li><a href="caramel.php">Caramel</a></li>
+						<li><a href="gummy.php">Gummy</a></li>
+						<li><a href="hard.php">Hard</a></li>
+						<li><a href="fruity.php">Fruity</a></li>
+						<li><a href="minty.php">Minty</a></li>
+						<li><a href="licorice.php">Licorice</a></li>
+						<li><a href="sour.php">Sour</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+<!-- //navigation -->
+<!-- breadcrumbs -->
+	<div class="breadcrumbs">
+		<div class="container">
+			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li class="active">Register Page</li>
+			</ol>
+		</div>
+	</div>
+<!-- //breadcrumbs -->
+
+<!-- register -->
+	<div class="register">
+		<div class="container">
+			<h2>Register Here</h2>
+			<div class="login-form-grids">
+				<form action="submitNewUser.php" method="post" onsubmit="return validate(this)">
+					<input name="FirstName" type="text" placeholder="First Name..." required=" " >
+					<input name="LastName" type="text" placeholder="Last Name..." required=" " >
+					<select class="input" name="accountType" type="text" required=" ">
+							<option value="NULL">Who is this account for?</option>
+							<option value="individual">Yourself</option>
+							<option value="business">A Business</option>
+					</select><br><br>
+					<input name="Address" type="text" placeholder="Address..." required=" " ><br>
+					<input name="City" type="text" placeholder="City..." required=" " ><br>
+					<select class="input" name="State" type="text" required=" ">
+							<option value="NULL">Select State</option>
+							<option value="AL">Alabama</option>
+							<option value="AK">Alaska</option>
+							<option value="AZ">Arizona</option>
+							<option value="AR">Arkansas</option>
+							<option value="CA">California</option>
+							<option value="CO">Colorado</option>
+							<option value="CT">Connecticut</option>
+							<option value="DE">Delaware</option>
+							<option value="DC">District Of Columbia</option>
+							<option value="FL">Florida</option>
+							<option value="GA">Georgia</option>
+							<option value="HI">Hawaii</option>
+							<option value="ID">Idaho</option>
+							<option value="IL">Illinois</option>
+							<option value="IN">Indiana</option>
+							<option value="IA">Iowa</option>
+							<option value="KS">Kansas</option>
+							<option value="KY">Kentucky</option>
+							<option value="LA">Louisiana</option>
+							<option value="ME">Maine</option>
+							<option value="MD">Maryland</option>
+							<option value="MA">Massachusetts</option>
+							<option value="MI">Michigan</option>
+							<option value="MN">Minnesota</option>
+							<option value="MS">Mississippi</option>
+							<option value="MO">Missouri</option>
+							<option value="MT">Montana</option>
+							<option value="NE">Nebraska</option>
+							<option value="NV">Nevada</option>
+							<option value="NH">New Hampshire</option>
+							<option value="NJ">New Jersey</option>
+							<option value="NM">New Mexico</option>
+							<option value="NY">New York</option>
+							<option value="NC">North Carolina</option>
+							<option value="ND">North Dakota</option>
+							<option value="OH">Ohio</option>
+							<option value="OK">Oklahoma</option>
+							<option value="OR">Oregon</option>
+							<option value="PA">Pennsylvania</option>
+							<option value="RI">Rhode Island</option>
+							<option value="SC">South Carolina</option>
+							<option value="SD">South Dakota</option>
+							<option value="TN">Tennessee</option>
+							<option value="TX">Texas</option>
+							<option value="UT">Utah</option>
+							<option value="VT">Vermont</option>
+							<option value="VA">Virginia</option>
+							<option value="WA">Washington</option>
+							<option value="WV">West Virginia</option>
+							<option value="WI">Wisconsin</option>
+							<option value="WY">Wyoming</option>
+					</select><br><br>
+					<input name="ZIPCode" type="text" placeholder="ZIP Code..." required=" " ><br>
+					<input name="PhoneNo" type="text" placeholder="Phone Number..." required=" " ><br>
+					<input name="email" type="email" placeholder="Email Address" required=" " >
+					<input name="password" type="password" placeholder="Password" required=" " >
+					<input type="submit" value="Register">
+				</form>
+			</div>
+			<div class="register-home">
+				<a href="login.html">Login</a>
+			</div>
+		</div>
+	</div>
+<!-- //register -->
+<!-- //footer -->
+<div class="footer">
+  <div class="container">
+    <div class="w3_footer_grids">
+      <div class="col-md-3 w3_footer_grid">
+        <h3>Contact</h3>
+        <ul class="address">
+          <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>135N Bellefield Avenue <span>Pittsburgh, PA</span></li>
+          <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:wonkywilly@world.com">wonkywilly@world.com</a></li>
+          <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+(123) 867 5309</li>
+        </ul>
+      </div>
+      <div class="col-md-3 w3_footer_grid">
+        <h3>Categories</h3>
+        <ul class="info">
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="chocolate.php">Chocolate</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="nuts.php">Nuts</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="caramel.php">Caramel</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="gummy.php">Gummy</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="hard.php">Hard</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 w3_footer_grid">
+        <br><br><br>
+        <ul class="info">
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="fruity.php">Fruity</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="minty.php">Minty</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="licorice.php">Licorice</a></li>
+          <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="sour.php">Sour</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 w3_footer_grid">
+        <h3>Profile</h3>
+        <ul class="info">
+        <li><i class="fa fa-arrow-right" aria-hidden="true"></i><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </div>
+
+  <div class="footer-copy">
+
+    <div class="container">
+      <p>© 2017 Super Market. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+    </div>
+  </div>
+
+</div>
+<div class="footer-botm">
+  <div class="container">
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<!-- top-header and slider -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.min.js"></script>
+<script>
+	// Mini Cart
+	paypal.minicart.render({
+		action: '#'
+	});
+
+	if (~window.location.search.indexOf('reset=true')) {
+		paypal.minicart.reset();
+	}
+</script>
+<!-- main slider-banner -->
+<script src="js/skdslider.min.js"></script>
+<link href="css/skdslider.css" rel="stylesheet">
+<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#demo1').skdslider({'delay':5000, 'animationSpeed': 2000,'showNextPrev':true,'showPlayButton':true,'autoSlide':true,'animationType':'fading'});
+
+			jQuery('#responsive').change(function(){
+			  $('#responsive_wrapper').width(jQuery(this).val());
+			});
+
+		});
+</script>
+<!-- //main slider-banner -->
+
+</body>
+</html>
